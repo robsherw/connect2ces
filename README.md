@@ -29,6 +29,12 @@ For more information: https://www.ssh.com/ssh/putty/windows/puttygen
 
 https://mycase.cloudapps.cisco.com/case
 
+## What if I want to connect to more than one Email Security Appliance (ESA) or Security Management Appliance (SMA)?
+Copy and save a second copy of the connect2ces.sh, such as connect2ces_2.sh.  
+
+You will want to edit the "cloud_host" to be the addtional appliance you wish to access.  
+You will want to edit the "local_port" to be something OTHER than 2222.  If not, you will receieve an error, "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!".   
+
 ## How can I configure my Email Security Appliance (ESA) to log-in without prompting for password?
 
 https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118305-technote-esa-00.html
