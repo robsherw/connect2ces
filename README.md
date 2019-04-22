@@ -34,8 +34,8 @@ https://mycase.cloudapps.cisco.com/case
 Copy and save a second copy of the connect2ces.sh, such as connect2ces_2.sh.  
 
 Note:  
-**You will want to edit the "cloud_host" to be the addtional appliance you wish to access.**  
-**You will want to edit the "local_port" to be something OTHER than 2222.  If not, you will receieve an error, "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!".**   
+* **You will want to edit the "cloud_host" to be the addtional appliance you wish to access.**  
+* **You will want to edit the "local_port" to be something OTHER than 2222.  If not, you will receieve an error, "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!".**   
 
 ## How can I configure my Email Security Appliance (ESA) to log-in without prompting for password?
 
