@@ -21,8 +21,8 @@ Cisco recommends using for Windows:
 
 For more information: https://www.ssh.com/ssh/putty/windows/puttygen
 
-**Please make sure that you safeguard access to your RSA private keys at all times.**
-**Please do not send your private key to Cisco, only the public key (.pub)**
+**Please make sure that you safeguard access to your RSA private keys at all times.**  
+**Please do not send your private key to Cisco, only the public key (.pub)**  
 **When submitting your public key to Cisco, please identify the email address/first name/last name that they key is for.**
 
 ## How do I open a Cisco Support Request to provide my public key?
