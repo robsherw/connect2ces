@@ -35,14 +35,14 @@ Copy and save a second copy of the connect2ces.sh, such as connect2ces_2.sh.
 
 Note:  
 * **You will want to edit the "cloud_host" to be the addtional appliance you wish to access.**  
-* **You will want to edit the "local_port" to be something OTHER than 2222.  If not, you will receieve an error, "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!".**   
+* **You will want to edit the "local_port" to be something OTHER than 2222.  If not, you will receieve an error, "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!"**   
 
 ## How can I configure my Email Security Appliance (ESA) to log-in without prompting for password?
 
 https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118305-technote-esa-00.html
 
 ## What should this look like once I have the pre-requisites completed?
-
+```
 robsherw@my_local > ~ ./ces_connect  
 [-] Connecting to your proxy server (f4-ssh.iphmx.com)...  
 [-] Proxy connection successful.  Now connected to f4-ssh.iphmx.com.  
@@ -58,3 +58,4 @@ Welcome to the Cisco C100V Email Security Virtual Appliance
 NOTE: This session will expire if left idle for 1440 minutes. Any uncommitted configuration changes will be lost. Commit the configuration changes as soon as they are made.  
 
 (Machine esa1.rs1234-01.iphmx.com)>  
+```
