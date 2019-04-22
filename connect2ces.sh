@@ -5,7 +5,7 @@
 # cloud_user="username"
 # cloud_host="esaX.CUSTOMER.iphmx.com" or "smaX.CUSTOMER.iphmx.com"
 ## [ASSURE THAT YOU HAVE THE PROPER REGIONAL CES DATACENTER SET!]
-# private_key="LOCAL_PATH_TO_SSH_PROVIDED_TO_CES_ATLAS"
+# private_key="LOCAL_PATH_TO_SSH_PRIVATE_RSA_KEY"
 # proxy_server="PROXY_SERVER" [SELECT ONLY ONE!]
 #
 ## For 'proxy_server', these are SSH proxies:
@@ -27,7 +27,7 @@
 
 cloud_user="username"
 cloud_host="esaX.CUSTOMER.iphmx.com"
-private_key="LOCAL_PATH_TO_SSH_PROVIDED_TO_CES_ATLAS"
+private_key="LOCAL_PATH_TO_SSH_PRIVATE_RSA_KEY"
 proxy_server="PROXY_SERVER"
 
 #-- LEAVE THESE VALUES AS-IS --------------------
