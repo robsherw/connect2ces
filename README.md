@@ -11,13 +11,13 @@ As a CES customer, you should have engaged CES On-Boarding/Ops, or Cisco TAC to 
 4) Copy and modify the connect2ces.sh script
 
 ## How do I create Private/Public RSA keys(s)?
-Cisco recommends using for Unix/Linux/OS X:
+Cisco recommends using 'ssh-keygen' on the terminal/CLI for Unix/Linux/OS X:
 
 'ssh-keygen -b 2048 -t rsa -f ~/.ssh/<NAME>'
 
 For more information: https://www.ssh.com/ssh/keygen/
 
-Cisco recommends using for Windows:
+Cisco recommends using PuTTYgen (https://www.puttygen.com/) for Windows:
 
 For more information: https://www.ssh.com/ssh/putty/windows/puttygen
 
