@@ -3,7 +3,7 @@
 #-- EDIT THE BELOW VALUES -----------------------
 # The following values should already be established with CES:
 # cloud_user="username"
-# cloud_host="esaX.CUSTOMER.iphmx.com"
+# cloud_host="esaX.CUSTOMER.iphmx.com" or "smaX.CUSTOMER.iphmx.com"
 ## [ASSURE THAT YOU HAVE THE PROPER REGIONAL CES DATACENTER SET!]
 # private_key="PATH_TO_SSH_PROVIDED_TO_CES_ATLAS"
 # proxy_server="PROXY_SERVER" [SELECT ONLY ONE!]
@@ -66,3 +66,4 @@ printf "[-] Done.\n"
 
 #-- Want to avoid having to type password each time?
 #-- See: https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118305-technote-esa-00.html
+#-- Need access to more than one ESA or SMA?  Copy the same script and rename to connect2ces_2.sh, or similar.
