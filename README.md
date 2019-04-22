@@ -35,18 +35,18 @@ https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118
 
 ## What should this look like once I have the pre-requisites completed?
 
-robsherw@my_local > ~ ./ces_connect
-[-] Connecting to your proxy server (f4-ssh.iphmx.com)...
-[-] Proxy connection successful.  Now connected to f4-ssh.iphmx.com.
-[-] proxy running on PID: 31253
-[-] Connecting to your CES appliance (esa1.rs1234-01.iphmx.com)...
+robsherw@my_local > ~ ./ces_connect  
+[-] Connecting to your proxy server (f4-ssh.iphmx.com)...  
+[-] Proxy connection successful.  Now connected to f4-ssh.iphmx.com.  
+[-] proxy running on PID: 31253  
+[-] Connecting to your CES appliance (esa1.rs1234-01.iphmx.com)...  
 
 
-Last login: Mon Apr 22 11:33:45 2019 from 10.123.123.123
-AsyncOS 12.1.0 for Cisco C100V build 071
+Last login: Mon Apr 22 11:33:45 2019 from 10.123.123.123  
+AsyncOS 12.1.0 for Cisco C100V build 071  
 
-Welcome to the Cisco C100V Email Security Virtual Appliance
+Welcome to the Cisco C100V Email Security Virtual Appliance  
 
-NOTE: This session will expire if left idle for 1440 minutes. Any uncommitted configuration changes will be lost. Commit the configuration changes as soon as they are made.
+NOTE: This session will expire if left idle for 1440 minutes. Any uncommitted configuration changes will be lost. Commit the configuration changes as soon as they are made.  
 
-(Machine esa1.rs1234-01.iphmx.com)>
+(Machine esa1.rs1234-01.iphmx.com)>  
