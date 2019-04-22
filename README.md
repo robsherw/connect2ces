@@ -21,9 +21,10 @@ Cisco recommends using for Windows:
 
 For more information: https://www.ssh.com/ssh/putty/windows/puttygen
 
-**Please make sure that you safeguard access to your RSA private keys at all times.**  
-**Please do not send your private key to Cisco, only the public key (.pub)**  
-**When submitting your public key to Cisco, please identify the email address/first name/last name that they key is for.**
+Note:
+**Please make sure that you safeguard access to your RSA private keys at all times.    
+**Please do not send your private key to Cisco, only the public key (.pub.  
+**When submitting your public key to Cisco, please identify the email address/first name/last name that they key is for.
 
 ## How do I open a Cisco Support Request to provide my public key?
 
@@ -32,8 +33,9 @@ https://mycase.cloudapps.cisco.com/case
 ## What if I want to connect to more than one Email Security Appliance (ESA) or Security Management Appliance (SMA)?
 Copy and save a second copy of the connect2ces.sh, such as connect2ces_2.sh.  
 
-You will want to edit the "cloud_host" to be the addtional appliance you wish to access.  
-You will want to edit the "local_port" to be something OTHER than 2222.  If not, you will receieve an error, "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!".   
+Note:
+**You will want to edit the "cloud_host" to be the addtional appliance you wish to access.  
+**You will want to edit the "local_port" to be something OTHER than 2222.  If not, you will receieve an error, "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!".   
 
 ## How can I configure my Email Security Appliance (ESA) to log-in without prompting for password?
 
