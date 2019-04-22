@@ -45,7 +45,7 @@ https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118
 
 ## What should this look like once I have the pre-requisites completed?
 ```
-robsherw@my_local > ~ ./ces_connect  
+robsherw@my_local > ~ ./connect2ces  
 [-] Connecting to your proxy server (f4-ssh.iphmx.com)...  
 [-] Proxy connection successful.  Now connected to f4-ssh.iphmx.com.  
 [-] proxy running on PID: 31253  
@@ -60,4 +60,9 @@ Welcome to the Cisco C100V Email Security Virtual Appliance
 NOTE: This session will expire if left idle for 1440 minutes. Any uncommitted configuration changes will be lost. Commit the configuration changes as soon as they are made.  
 
 (Machine esa1.rs1234-01.iphmx.com)>  
+(Machine esa1.rs1234-01.iphmx.com)> exit
+
+Connection to 127.0.0.1 closed.
+[-] Closing proxy connection...
+[-] Done.
 ```
