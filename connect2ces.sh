@@ -9,21 +9,30 @@
 # proxy_server="PROXY_SERVER" [SELECT ONLY ONE!]
 #
 ## For 'proxy_server', these are SSH proxies:
-## (2) US:
-## f4-ssh.iphmx.com (68.232.128.202)
-## f5-ssh.iphmx.com (68.232.134.202)
-##
-## (2) EU:
-## f10-ssh.c3s2.iphmx.com (68.232.132.143)
-## f11-ssh.c3s2.iphmx.com (68.232.138.143)
-##
-## (2) CA:
-## f13-ssh.ca.iphmx.com (68.232.158.121)
-## f14-ssh.ca.iphmx.com (216.71.128.121)
-##
-## (2) AWS:
+## 
+## AP (ap.iphmx.com)
+## f15-ssh.ap.iphmx.com
+## f16-ssh.ap.iphmx.com
+## 
+## AWS (r1.ces.cisco.com)
 ## p3-ssh.r1.ces.cisco.com
 ## p4-ssh.r1.ces.cisco.com
+## 
+## CA (ca.iphmx.com)
+## f13-ssh.ca.iphmx.com
+## f14-ssh.ca.iphmx.com
+## 
+## EU (c3s2.iphmx.com)
+## f10-ssh.c3s2.iphmx.com
+## f11-ssh.c3s2.iphmx.com
+## 
+## EU (eu.iphmx.com)(German DC)
+## f17-ssh.eu.iphmx.com
+## f18-ssh.eu.iphmx.com
+## 
+## US (iphmx.com)
+## f4-ssh.iphmx.com
+## f5-ssh.iphmx.com
 
 cloud_user="username"
 cloud_host="esaX.CUSTOMER.iphmx.com"
