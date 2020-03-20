@@ -14,10 +14,6 @@
 ## f15-ssh.ap.iphmx.com
 ## f16-ssh.ap.iphmx.com
 ## 
-## AWS (r1.ces.cisco.com)
-## p3-ssh.r1.ces.cisco.com
-## p4-ssh.r1.ces.cisco.com
-## 
 ## CA (ca.iphmx.com)
 ## f13-ssh.ca.iphmx.com
 ## f14-ssh.ca.iphmx.com
